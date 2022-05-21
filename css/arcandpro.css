@@ -9,7 +9,22 @@
     background-color: #cccccc;
 }
 
-table th, table td{
-    padding-left:  10px;
-    padding-right: 10px;
+.bgarc {
+    background-color: #ffffcc;
+}
+
+dt {
+    margin-bottom: 3px;
+    border-bottom: 1px dashed #993300;
+    display: inline-block;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+    border: 1px solid #993300;
+}
+
+.margin {
+    padding-left: 10px;
 }
