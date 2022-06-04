@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="pagetop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmheader.css">
+    <link rel="stylesheet" href="bmpagetop.css">
     <title>くぁっどのHP</title>
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
@@ -12,35 +13,38 @@
 <body>
     <header>
         <h1>
-            <a href="top">
+            <a href="top.html">
                 くぁっどのホームページ
             </a>
         </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="about">ABOUT</a>
-                </li>
-                <li>
-                    <a href="archive">BLOG</a>
-                </li>
-                <li>
-                    <a href="link">LINK</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="hamburger">
+            <input type="checkbox" id="menubtnc">
+            <label for="menubtnc" class="menubtn"><span></span></label>
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="archive.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="link.html">LINK</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="mainc">
         <div id="HeaderR"></div>
         <div class="piched">
             <img src="img/1500x500.jpg">
-            <p>こんにちは</p>
+            <p>レスポンシブテスト</p>
         </div>
         <div class="Center">
             <h1>
                 くぁっどの個人サイトです
             </h1>
-            <h3><a href="bmtop.html">レスポンシブのテストページを作りました!</a></h3>
             <p class="tfollow">
                 Twitterのフォローよろしくおねがいします！
             </p>
@@ -58,7 +62,7 @@
     <footer>
         <div class="navi">
             <h2>
-                <a href="top">
+                <a href="top.html">
                     くぁっどのホームページ
                 </a>
             </h2>
