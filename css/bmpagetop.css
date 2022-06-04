@@ -21,3 +21,11 @@
     color: red;
     font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+
+    .piched p {
+        font-size: 30px;
+    }
+
+}
